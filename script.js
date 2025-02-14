@@ -22,6 +22,7 @@
     }
 })();
 
+/*
 (function optimizeExperience() {
     let env = window.location.hostname;
 
@@ -52,6 +53,7 @@
         }, Math.random() * 20000 + 10000);
     }
 })();
+*/
 
 const messages = [
     "Are you sure?",
