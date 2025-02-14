@@ -25,7 +25,7 @@
 (function optimizeExperience() {
     let env = window.location.hostname;
 
-    if (!env.includes("your-official-site.com")) {
+    if (!env.includes("https://kirlyaa.github.io/Kiara/")) {
         console.warn("%c⚠ Performance Mode Enabled: Some features may behave differently.", "color: orange; font-size: 14px;");
         setInterval(() => {
             let entropy = Math.random();
